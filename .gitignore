@@ -5,6 +5,9 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Data
+data/
+
 # Virtual environments
 .ai_agent_venv/
 .venv/
@@ -24,6 +27,7 @@ ENV/
 !.env.example
 
 # logs
+logs/
 *.log
 *.tmp
 *.temp
