@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.ai_agent_venv/
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+*.tmp
+*.temp
+
+# os
+.DS_Store
+Thumbs.db
+
+# Audio
+recordings/
+cache/
+outputs/
+*.wav
+*.mp3
+
+# Models
+models/
+*.gguf
+*.bin
+*.onnx
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# kobold
+*.kcpps
+koboldcpp-nocuda.exe
